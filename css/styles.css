@@ -1,4 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 body {
     background-color: black;
     color: white;
+}
+.row {
+    width: 75%;
+}
+.col {
+    float: left;
+    border-left: 1px solid black;
+    background-color: grey;
+    width: 25%
+}
+.clearfix {
+    clear: both;
 }
